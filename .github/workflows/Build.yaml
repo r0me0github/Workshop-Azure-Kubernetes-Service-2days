@@ -87,4 +87,3 @@ jobs:
       - name: Push de l'image de l'application
         run: |
           docker push ${{ env.REGISTRY_NAME}}.azurecr.io/${{ env.APP_NAME }}:${{ env.IMAGE_VERSION }}
-

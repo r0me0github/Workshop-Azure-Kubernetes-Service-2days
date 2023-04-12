@@ -3,8 +3,8 @@ on:
   workflow_dispatch:
 
 env:
-  RG_NAME: "RG-AKS-Lab-11"
-  CLUSTER_NAME: "AKS-Lab-11"
+  RG_NAME: "RG-AKS-Lab-11-RFR"
+  CLUSTER_NAME: "AKS-Lab-11-RFR"
 
 
 jobs:
